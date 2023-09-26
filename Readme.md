@@ -1,14 +1,14 @@
 Integrantes del grupo:
 
-Franco Suarez Barraza
-Pablo Ezequiel Salas Ferrari  
++ Franco Suarez Barraza
++ Pablo Ezequiel Salas Ferrari  
 
 ***
 
 Email de los integrantes:
 
-francosuarezbarraza@gmail.com
-salasferraripablo@gmail.com
++ francosuarezbarraza@gmail.com
++ salasferraripablo@gmail.com
 
 ***
 
