@@ -25,3 +25,5 @@ Es una pagina que muestra las ultimas noticias del mundo de Dragon Ball (Ya sea 
 ***
 
 Diagrama de entidad relacion:
+
+![Diagrama](Diagrama.png)
