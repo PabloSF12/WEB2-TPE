@@ -27,10 +27,21 @@ header {
     padding: 1rem;
 }
 
+.header-login {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
 /*Logo*/
 
 .logo {
-    height: 70px; 
+    height: 70px;
+    border-radius: 5rem;
+    overflow: hidden;
 }
 
 .logo-nombre {

@@ -9,6 +9,9 @@
     margin-right: 1rem;
     padding: 1rem;
     border: .2rem solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-categorias{
@@ -45,4 +48,19 @@
 
 .cuerpo {
     align-items: center;
+}
+
+.button-add-noticia{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.423);
+    border: .2rem solid white;
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
 }
