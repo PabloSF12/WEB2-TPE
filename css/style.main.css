@@ -27,10 +27,28 @@ header {
     padding: 1rem;
 }
 
+<<<<<<< HEAD
 /*Logo*/
 
 .logo {
     height: 70px; 
+=======
+.header-login {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+/*Logo*/
+
+.logo {
+    height: 70px;
+    border-radius: 4rem;
+    overflow: hidden;
+>>>>>>> master
 }
 
 .logo-nombre {
