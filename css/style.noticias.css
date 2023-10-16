@@ -68,7 +68,7 @@ button{
 
 .botones {
     display: grid;
-    padding: 1rem;
+    padding: 2rem;
     align-items: center;
     text-align: center;
     gap: 1rem;
