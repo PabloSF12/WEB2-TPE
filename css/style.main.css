@@ -27,12 +27,6 @@ header {
     padding: 1rem;
 }
 
-<<<<<<< HEAD
-/*Logo*/
-
-.logo {
-    height: 70px; 
-=======
 .header-login {
     display: flex;
     justify-content: flex-end;
@@ -46,9 +40,8 @@ header {
 
 .logo {
     height: 70px;
-    border-radius: 4rem;
+    border-radius: 5rem;
     overflow: hidden;
->>>>>>> master
 }
 
 .logo-nombre {

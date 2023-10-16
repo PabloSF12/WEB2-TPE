@@ -1,9 +1,6 @@
 .main-noticias{
-<<<<<<< HEAD
-=======
     display: flex;
     justify-content: space-between;
->>>>>>> master
     border: 1px;
     backdrop-filter: blur(30px);
     background-color: rgba(0, 0, 0, 0.423);
@@ -14,10 +11,7 @@
     margin-right: 1rem;
     padding: 1rem;
     border: .2rem solid rgb(255, 255, 255);
-<<<<<<< HEAD
-=======
     align-items: center;
->>>>>>> master
 }
 
 .main-categorias{
@@ -37,8 +31,6 @@
 
 .cuerpo {
     align-items: center;
-<<<<<<< HEAD
-=======
 }
 
 .button-add-noticia{
@@ -54,5 +46,4 @@ button{
     color: white;
     border-radius: 10px;
     backdrop-filter: blur(25px);
->>>>>>> master
 }
