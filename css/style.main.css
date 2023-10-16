@@ -1,0 +1,41 @@
+@import url(style.noticias.css);
+@import url(style.login.css);
+@import url(style.noticia.css);
+
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Main body*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/tpe/Sources/background.png);
+    color: white;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(19, 18, 18, 0.816);
+    backdrop-filter: blur(25px);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+/*Logo*/
+
+.logo {
+    height: 70px; 
+}
+
+.logo-nombre {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
