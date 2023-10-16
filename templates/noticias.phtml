@@ -1,0 +1,32 @@
+<!--Header-->
+
+<?php 
+  require './templates/header.phtml';
+?>
+
+<!--Categorias-->
+<div class="cuerpo">
+<ul class="main-categorias">
+  <li>Anime</li>
+  <li>Manga</li>
+  <li>Peliculas</li>
+  <li>Videojuegos</li>
+</ul>
+
+<!--Main body-->
+
+<?php foreach($noticias as $noticia):?>
+
+<div class="main-noticias">
+  <?= $noticia->Titulo?>  
+</div>
+
+<?php endforeach?>
+
+<button>Añadir noticia</button>
+</div>
+<!--Footer-->
+
+<?php 
+  require './templates/footer.phtml';
+?>

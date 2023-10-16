@@ -1,0 +1,44 @@
+footer{
+    background-color: rgba(19, 18, 18, 0.816);
+    backdrop-filter: blur(25px);
+    border-top: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+footer section{
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+footer section h2{
+    position: relative;
+}
+
+footer section h2::before{
+    position: absolute;
+    content: '';
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    aspect-ratio: 1/2;
+    left: -20px;
+    border-radius: 5px;
+}
+footer section ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: .5rem;
+}
+footer section ul li{
+    text-decoration: none;
+    opacity: 0.5;
+}
+.links {
+    text-decoration: none;
+    color: white;
+    opacity: 0.9;
+}
