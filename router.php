@@ -4,6 +4,7 @@ require_once './app/controllers/noticias.controller.php';
 require_once './app/controllers/secciones.controller.php';
 require_once './app/controllers/auth.controller.php';
 require_once './app/controllers/login.controller.php';
+require_once './app/controllers/noticia.controller.php';
 
 define('BASE_URL', '//'.$_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . dirname($_SERVER['PHP_SELF']).'/');
 
@@ -44,21 +45,23 @@ switch ($params[0]) {
         $controller = new AuthController();
         $controller->logout();
         break;
-        
-       case 'add':
+    case 'view':
         $a = 'noticia';
-        if (!empty ($params[1])) {
-            $a= $params[1];
+        if (empty($params[1])) {
+            $a = $params[1];
         }
-  /*      $controller;
+        $controller;
         switch ($a) {
             case 'noticia':
                 $controller = new NoticiaController();
-                $controller->addNoticia();
+                $controller -> showNoticia($params[2]);
+                break;
+            
+            default:
+                echo 'Error 404 not found';
                 break;
         }
-        break;
-*/
+
     default:
         echo 'Error 404 not found';
     break;

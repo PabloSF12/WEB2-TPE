@@ -3,14 +3,25 @@
 <?php 
   require './templates/header.phtml';
 ?>
+
+<!--Main body-->
+
+<?php foreach($noticias as $noticia):?>
+
 <div class="main-noticias">
-  <h1>sdaaad</h1>
-  <h1>sdaaad</h1>
-  <h1>sdaaad</h1>
-  <h1>sdaaad</h1>
-  <h1>sdaaad</h1>
-  <h1>sdaaad</h1>
+  <div class="noticia-titulo">
+    <div class="container-img"> 
+      <img class="noticia-img" src="<?=$noticia->Foto?>" alt="">
+    </div>
+    <?= $noticia->Titulo?>
+  </div>
+  <div class="botones">
+    <button>Editar noticia</button>
+    <button>Eliminar noticia</button>
+  </div>
 </div>
+
+<?php endforeach?>
 
 <!--Footer-->
 

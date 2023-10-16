@@ -2,6 +2,8 @@
 
 require_once './app/models/noticias.model.php';
 require_once './app/views/noticias.view.php';
+require_once './app/models/noticia.model.php';
+require_once './app/views/noticia.view.php';
 
 class NoticiasController {
    private $model;
@@ -20,23 +22,4 @@ class NoticiasController {
    }
 }
 
-class NoticiaController {
-   private $model;
-   private $view;
-
-   public function __construct(){
-    
-    $this->model = new NoticiaModel();
-    $this->view = new NoticiaView();
-
-   }
-
-   public function showNoticia(){
-      $this->view->showNoticia();
-   }
-}
-/*
-   public function addNoticia (){
-      
-   }
-*/
+  

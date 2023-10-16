@@ -18,9 +18,15 @@
 <?php foreach($noticias as $noticia):?>
 
 <div class="main-noticias">
-  <div class="noticia-titulo"> 
-    <img class="noticia-img" src="<?=$noticia->Foto?>" alt="">
-    <?= $noticia->Titulo?>
+  <div class="noticia-titulo">
+    <div class="container-img"> 
+      <a href="view-noticia" class="link">
+        <img class="noticia-img" src="<?=$noticia->Foto?>" alt="">
+      </a>
+    </div>
+      <a href="view/noticia/<?= $noticia->IDNoticia?>" class="link">
+        <?= $noticia->Titulo?>
+      </a>
   </div>
   <div class="botones">
     <button>Editar noticia</button>
