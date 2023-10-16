@@ -1,0 +1,35 @@
+<?php
+    session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+<head>
+    <meta charset="UTF-8">
+    <base href="<?= BASE_URL ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.main.css">
+    <title>Noticias Del Ermitaño</title>
+</head>
+
+<body>
+    <header>
+            <div class="logo-nombre">
+                <a href="home">
+                <img class="logo" src="Sources/logo.png" alt="logo-prinicipal">
+                </a>
+                <h1>Noticias Del Ermitaño</h1>
+            </div>
+            <div>
+            <?php if (!isset($_SESSION['USER_ID'])) : ?>
+                <a href="login" class="header-login">
+                <p>Iniciar sesión</p>
+                    <img class="logo" src="Sources/foto-perfil.png" alt="foto-login">
+                </a>
+                <?php endif ?>
+            </div>
+    </header>
+
