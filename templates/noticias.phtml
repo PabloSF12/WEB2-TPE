@@ -18,13 +18,29 @@
 <?php foreach($noticias as $noticia):?>
 
 <div class="main-noticias">
-  <?= $noticia->Titulo?>  
+  <div class="noticia-titulo">
+    <div class="container-img"> 
+      <a href="view-noticia" class="link">
+        <img class="noticia-img" src="<?=$noticia->Foto?>" alt="">
+      </a>
+    </div>
+      <a href="view/noticia/<?= $noticia->IDNoticia?>" class="link">
+        <?= $noticia->Titulo?>
+      </a>
+  </div>
+  <div class="botones">
+    <button>Editar noticia</button>
+    <button>Eliminar noticia</button>
+  </div>
 </div>
 
 <?php endforeach?>
 
-<button>Añadir noticia</button>
+  <div class="button-add-noticia">
+    <button>Añadir noticia</button>
+  </div>
 </div>
+
 <!--Footer-->
 
 <?php 

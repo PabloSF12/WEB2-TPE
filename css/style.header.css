@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(19, 18, 18, 0.816);
+    backdrop-filter: blur(25px);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+.header-login {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+/*Logo*/
+
+.logo {
+    height: 70px;
+    border-radius: 5rem;
+    overflow: hidden;
+}
+
+.logo-nombre {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}

@@ -16,18 +16,3 @@ class NoticiasModel extends Model{
   }
 
 }
-
-class NoticiaModel extends Model{
-
-
-  function getNoticia(){
-    $query = $this->db->prepare('SELECT * FROM noticias');
-    $query->execute();
-
-    $noticia = $query->fetchAll(PDO::FETCH_OBJ);
-
-    return $noticia;
-
-  }
-
-}

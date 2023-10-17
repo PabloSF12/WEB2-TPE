@@ -5,9 +5,3 @@ class NoticiasView{
     require './templates/noticias.phtml';
   }
 }
-
-class NoticiaView{
-  public function showNoticia(){
-    require './templates/noticia.phtml';
-  }
-}
